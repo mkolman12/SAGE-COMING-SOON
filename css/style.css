@@ -137,6 +137,7 @@ p{
 
 .connected h2{
 	font-size: 30px;
+	font-family: 'Teko', sans-serif;
 	letter-spacing: 3px;
 	margin-bottom: 30px;
 }
@@ -211,7 +212,7 @@ article time{
  
 }
 
-footer.cop{
+footer.copy{
 	margin-top: 147px;
 }
 
@@ -223,7 +224,6 @@ footer.copy small{
 	font-weight: 300;
 	color: #828082;
 	
-
 
 }
 
