@@ -162,59 +162,55 @@ h3{
 }
 
 p{
+	font-family: "Titillium Web", sans-serif;
 	font-size: 14px;
 	color: #828282;
 
 }
 
-
-/* hover
-
-	font-size: 24px;
-	color: #fff;
-	text-decoration: none;
-}
-
-
-
-figcaption h3 p{
-	font-size: 18px;
-	color: #fff;
-
-}
-
-
-show more 
-
-*/	
+	
 
 
 figcaption {
     display: absolute;
     opacity: 0;
-    background-color: #f63c3c ;
-    width: 680px;
-    height: 365px;
+    background-color: #f63c3c;
+    width: 530px;
+    height: 300px;
     border: 16px solid #000; 
     position: absolute;
-   top: 0;
-   color: #fff;
+   	top: 0;
+   	color: #fff;
 }
 
-.tesla figcaption, .stuhrling figcaption {
+.model figcaption{
     left: 20px;
-   right: 10px;
+   	right: 10px;
 }
 
-.discovery figcaption, .infinity figcaption {
+.stuhrling figcaption{
+    left: 20px;
+   	right: 10px;
+}
+
+.discovery figcaption{
   left: 10px;
   right: 20px;
 }
 
+
+
+.infinity figcaption{
+  left: 10px;
+  right: 20px;
+}
+
+
+
 figcaption h3 {
     font-size: 24px;
     font-weight: 300;
-    margin-top: 130px;
+    margin-top: 150px;
     margin-bottom: 50px;
 }
 
@@ -392,8 +388,10 @@ article p{
 
 .showmore {
 	display: inline-block;
-	margin-left: -60px;
-	margin-top: 80px;
+	margin-left: 550px;
+	margin-top: 90px;
+
+
 }
 
 
@@ -401,6 +399,9 @@ article p{
 	font-family: 'Teko', sans-serif;
 	color: #f63c3c;
 	font-size: 20px;
+	border-bottom: 5px;
+	border-color: #f63c3c;
+	
 }
 
 
@@ -503,11 +504,12 @@ article p{
 .connected a{
 	text-decoration: none;
 	color: #fff;
+	font-weight: 300px;
+	font-size: 30px;
 	/*padding-top: 10px;
 	width: 30px;
 	height: 2px;
-	font-weight: 300px;
-	font-size: 30px;*/
+	*/
 
 }
 
