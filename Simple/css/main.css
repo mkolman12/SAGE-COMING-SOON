@@ -445,6 +445,7 @@ article p{
 	text-align: left;
 	margin-bottom: 19px;
 	margin-left: 140px;
+	font-family: 'Teko', sans-serif;
 	
 
 }
@@ -469,6 +470,8 @@ article p{
 }
 
 .connected ul li{
+	font-family: 'Teko', sans-serif;
+	font-weight: 300;
 	display: inline-block;
 	width: 260px;
 	height: 190px;
